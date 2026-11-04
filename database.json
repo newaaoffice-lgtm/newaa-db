@@ -71,20 +71,16 @@
 {"id":"s060","name":"Eclipse Fern","emoji":"🌿","rarity":"exotic","price":60000000,"sell_value":15000000,"grow_seconds":39900,"max_yield":2}
 ],
 "gear":[
-{"id":"g001","name":"Watering Can","emoji":"🚿","type":"water","rarity":"common","price":0,"description":"Waters plants and speeds growth a little.","value":10},
-{"id":"g002","name":"Basic Sprinkler","emoji":"💦","type":"sprinkler","rarity":"uncommon","price":10000,"description":"Boosts growth speed for 5 minutes.","value":10},
-{"id":"g003","name":"Advanced Sprinkler","emoji":"💦","type":"sprinkler","rarity":"rare","price":35000,"description":"Boosts growth speed for 5 minutes.","value":25},
-{"id":"g004","name":"Godly Sprinkler","emoji":"💦","type":"sprinkler","rarity":"legendary","price":150000,"description":"Boosts growth speed and mutation chance for 5 minutes.","value":50},
-{"id":"g005","name":"Master Sprinkler","emoji":"💦","type":"sprinkler","rarity":"mythical","price":600000,"description":"Strong boost to growth speed and mutation chance for 5 minutes.","value":80},
-{"id":"g006","name":"Basic Fertilizer","emoji":"🧪","type":"fertilizer","rarity":"common","price":2500,"description":"Increases harvest yield on the next planting.","value":10},
-{"id":"g007","name":"Advanced Fertilizer","emoji":"🧪","type":"fertilizer","rarity":"rare","price":30000,"description":"Increases harvest yield on the next planting.","value":30},
-{"id":"g008","name":"Premium Fertilizer","emoji":"🧪","type":"fertilizer","rarity":"mythical","price":450000,"description":"Greatly increases harvest yield on the next planting.","value":60},
-{"id":"g009","name":"Harvest Tool","emoji":"🧺","type":"harvest","rarity":"uncommon","price":15000,"description":"Harvests more plants at once.","value":5},
-{"id":"g010","name":"Favorite Tool","emoji":"❤️","type":"utility","rarity":"legendary","price":120000,"description":"Protects favorite crops from being sold.","value":1},
-{"id":"g011","name":"Magnifying Glass","emoji":"🔍","type":"utility","rarity":"rare","price":20000,"description":"Reveals a crop's mutation and sell value.","value":1},
-{"id":"g012","name":"Garden Plot","emoji":"🟫","type":"plot","rarity":"rare","price":50000,"description":"Adds one extra planting slot.","value":1},
-{"id":"g013","name":"Mega Plot","emoji":"🟫","type":"plot","rarity":"divine","price":1500000,"description":"Adds three extra planting slots.","value":3},
-{"id":"g014","name":"Lucky Charm","emoji":"🍀","type":"utility","rarity":"exotic","price":6000000,"description":"Raises the chance of rare shop stock for one hour.","value":60}
+{"id":"g001","name":"Basic Sprinkler","emoji":"💦","type":"sprinkler","rarity":"uncommon","price":10000,"description":"Plants you plant in the next 5 min grow 10% faster.","value":10},
+{"id":"g002","name":"Advanced Sprinkler","emoji":"💦","type":"sprinkler","rarity":"rare","price":35000,"description":"Plants you plant in the next 5 min grow 25% faster.","value":25},
+{"id":"g003","name":"Godly Sprinkler","emoji":"💦","type":"sprinkler","rarity":"legendary","price":150000,"description":"Plants you plant in the next 5 min grow 40% faster.","value":40},
+{"id":"g004","name":"Master Sprinkler","emoji":"💦","type":"sprinkler","rarity":"mythical","price":600000,"description":"Plants you plant in the next 5 min grow 60% faster.","value":60},
+{"id":"g005","name":"Basic Fertilizer","emoji":"🧪","type":"fertilizer","rarity":"common","price":2500,"description":"Your next planting is worth 10% more.","value":10},
+{"id":"g006","name":"Advanced Fertilizer","emoji":"🧪","type":"fertilizer","rarity":"rare","price":30000,"description":"Your next planting is worth 30% more.","value":30},
+{"id":"g007","name":"Premium Fertilizer","emoji":"🧪","type":"fertilizer","rarity":"mythical","price":450000,"description":"Your next planting is worth 60% more.","value":60},
+{"id":"g008","name":"Harvest Tool","emoji":"🧺","type":"harvest","rarity":"uncommon","price":15000,"description":"Permanent +5% value on every harvest.","value":5},
+{"id":"g009","name":"Garden Plot","emoji":"🟫","type":"plot","rarity":"rare","price":50000,"description":"Adds one extra plot. Max 12 plots total.","value":1},
+{"id":"g010","name":"Mega Plot","emoji":"🟫","type":"plot","rarity":"divine","price":1500000,"description":"Adds three extra plots. Max 12 plots total.","value":3}
 ],
 "mutations":[
 {"id":"m01","name":"Wet","emoji":"💧","multiplier":2,"chance":12,"source":"Rain"},
